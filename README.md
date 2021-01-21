@@ -18,7 +18,7 @@ python3 -m venv venv
 # Mac and Linux
 source venv/bin/activate
 
-# Install requirements
+# Install
 pip install -e .
 ```
 

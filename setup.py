@@ -9,7 +9,7 @@ setup(
     author='Ben Russell',
     author_email='benr@cal-am.com',
     url='https://github.com/benr-calam/calam-voyager',
-    packages=['calam_voyager'],
+    packages=['calam_voyager', 'calam_voyager.blocking'],
     requires=[
         'aiohttp',
         'requests',
