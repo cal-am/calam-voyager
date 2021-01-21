@@ -32,6 +32,11 @@ Or specific version once those are released:
 pip install git+https://github.com/benr-calam/calam-voyager@v1.0
 ```
 
+If you get this error:
+<pre><span style="color: red">error: invalid command 'bdist_wheel'</span></pre>
+Then you may need to run `pip install wheel`
+
+
 ## Overview
 Package consists of a set of functions that execute HTTP requests against either an `aiohttp.ClientSession` for the asynchronous parts of the package or a `requests.Session` for the blocking parts.
 
@@ -53,6 +58,7 @@ python3 -m venv testing-venv
 
 # install requirements
 pip install -r testing_requirements.txt
+pip install -e .
 
 # run tests
 python -m unittest tests/*
