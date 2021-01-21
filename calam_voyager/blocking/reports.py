@@ -1,6 +1,6 @@
 import requests
 
-from ..base import base
+from .. import base
 
 
 __all__ = [
