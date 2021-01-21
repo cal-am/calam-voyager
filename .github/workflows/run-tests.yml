@@ -36,7 +36,7 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       env:
-        VOYAGER_USERNAME: ${{ secrets.voyager_username }}
-        VOYAGER_PASSWORD: ${{ secrets.voyager_password }}
+        VOYAGER_USERNAME: ${{ secrets.VOYAGER_USERNAME }}
+        VOYAGER_PASSWORD: ${{ secrets.VOYAGER_PASSWORD }}
       run: |
         python -m unittest tests/*
