@@ -13,8 +13,6 @@ setup(
     requires=[
         'aiohttp',
         'requests',
-        'beautifulsoup4',
-        'aiodns',
-        'cchardet'
+        'beautifulsoup4'
     ]
 )
