@@ -10,7 +10,7 @@ setup(
     author_email='benr@cal-am.com',
     url='https://github.com/benr-calam/calam-voyager',
     packages=['calam_voyager', 'calam_voyager.blocking'],
-    requires=[
+    install_requires=[
         'aiohttp',
         'requests',
         'beautifulsoup4'
